@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerClock {
+    background-image: url(Chang1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 660px;   
+    text-align: left;
+}
+
+.ChangClock {
+    background-color: #ffff;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.btnChangeBg,
+.btnLove {
+    padding: 5px;
+    text-align: left;
+}
+
+.love {
+    display: none;
+    text-align: center;
+}
+
+.loveGif {
+    display: none;
+}
